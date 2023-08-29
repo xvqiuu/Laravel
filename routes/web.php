@@ -27,3 +27,4 @@ Route::get('/about', function () {
         "email" => "lisa@gmail.com"
     ]);
 });
+
