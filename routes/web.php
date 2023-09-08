@@ -28,3 +28,9 @@ Route::get('/about', function () {
     ]);
 });
 
+Route::get('/boom',[MencobaController::class,'boomesport']);
+Route::get('/prx',[MencobaController::class,'prxesport']);
+Route::get('/fnatic',[MencobaController::class,'fnaticesport']);
+Route::get('/fpx',[MencobaController::class,'fpxesport']);
+Route::get('/',[MencobaController::class,'beranda']);
+
