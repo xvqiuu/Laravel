@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\BukuController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,4 +35,6 @@ Route::get('/prx',[MencobaController::class,'prxesport']);
 Route::get('/fnatic',[MencobaController::class,'fnaticesport']);
 Route::get('/fpx',[MencobaController::class,'fpxesport']);
 Route::get('/',[MencobaController::class,'beranda']);
+
+Route::get('/buku',[BukuController::class,'index']);
 
